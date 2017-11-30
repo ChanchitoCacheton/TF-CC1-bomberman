@@ -1,0 +1,53 @@
+﻿Compilación iniciada a las 30/11/2017 6:21:18 a. m..
+     1>Proyecto "C:\Users\usuario\Desktop\personal\CE\Bomberman\Bomberman\Bomberman.vcxproj" en el nodo 2 (Build destinos).
+       El archivo del proyecto contiene ToolsVersion="12.0". Este conjunto de herramientas falta o es desconocido, en cuyo caso es posible que pueda resolver este problema instalando la versión apropiada de MSBuild. También es posible que, por motivos de directiva, se haya exigido a la compilación que use un valor determinado para ToolsVersion. Se tratará el proyecto como si contuviera ToolsVersion="4.0". Para obtener más información, vea http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Artificio.cpp Bomba.cpp Enemigo.cpp Enemigo1.cpp Enemigo2.cpp Enemigo3.cpp Juego.cpp Jugador.cpp MyForm.cpp Piedra.cpp PiedraI.cpp PiedraII.cpp Poder.cpp PoderBomba.cpp PoderFlama.cpp PoderPatear.cpp PoderVida.cpp
+         Artificio.cpp
+         Bomba.cpp
+     1>Bomba.cpp(35): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>Bomba.cpp(36): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+         Enemigo.cpp
+         Enemigo1.cpp
+         Enemigo2.cpp
+         Enemigo3.cpp
+         Juego.cpp
+     1>Juego.cpp(763): warning C4244: 'argumento' : conversión de '__int64' a 'int'; posible pérdida de datos
+     1>Juego.cpp(764): warning C4244: 'argumento' : conversión de '__int64' a 'int'; posible pérdida de datos
+         Jugador.cpp
+         MyForm.cpp
+     1>MyForm.cpp(6): warning C4829: Parámetros posiblemente incorrectos para la función main. Utilice 'int main(Platform::Array<Platform::String^>^ argv)'
+         Piedra.cpp
+         PiedraI.cpp
+         PiedraII.cpp
+         Poder.cpp
+         PoderBomba.cpp
+         PoderFlama.cpp
+         PoderPatear.cpp
+         PoderVida.cpp
+         Generando código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\usuario\Desktop\personal\CE\Bomberman\Debug\Bomberman.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Bomberman.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\usuario\Desktop\personal\CE\Bomberman\Debug\Bomberman.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Artificio.obj
+         Debug\Bomba.obj
+         Debug\Enemigo.obj
+         Debug\Enemigo1.obj
+         Debug\Enemigo2.obj
+         Debug\Enemigo3.obj
+         Debug\Juego.obj
+         Debug\Jugador.obj
+         Debug\MyForm.obj
+         Debug\Piedra.obj
+         Debug\PiedraI.obj
+         Debug\PiedraII.obj
+         Debug\Poder.obj
+         Debug\PoderBomba.obj
+         Debug\PoderFlama.obj
+         Debug\PoderPatear.obj
+         Debug\PoderVida.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Bomberman.vcxproj -> C:\Users\usuario\Desktop\personal\CE\Bomberman\Debug\Bomberman.exe
+     1>Compilación del proyecto terminada "C:\Users\usuario\Desktop\personal\CE\Bomberman\Bomberman\Bomberman.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:07.36
